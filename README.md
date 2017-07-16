@@ -12,7 +12,6 @@ _In this guide our main focus will be **B4A** but, we are also going to refer to
 
 - [Introduction](01-introduction.md)
 
-
 ----
 
 #### Licensing
