@@ -10,16 +10,16 @@ Checking if the device is connected to internet. This method might not work on a
 'Returns true if the device is connected to internet
 Sub IsConnectedToInternet As Boolean
 	Dim mResult=False As Boolean
+	Dim localAddress = "127.0.0.1" As String
 	Dim mPhone As Phone, mServer As ServerSocket'Add a reference to the network library  'Check status: DISCONNECTED 0
 	Try
 		mServer.Initialize(0, "")
-		If mServer.GetMyIP = "127.0.0.1" Then mResult = False  'This is the local host address
-		If Not(mPhone.GetDataState.EqualsIgnoreCase("CONNECTED")) And mServer.GetMyWifiIP = "127.0.0.1" Then mResult = False
-		mResult = True
+		If mServer.GetMyIP <> localAddress Then mResult = True : Exit
+		If mPhone.GetDataState.EqualsIgnoreCase("CONNECTED") And mServer.GetMyWifiIP <> localAddress Then mResult = True: Exit
 	Catch
-		mResult = False
+		'If anything is wrong mResult will remain false
 	End Try
-	Log("Is connected to internet?: " & mResult) 
+	Log("Is connected to internet?: " & mResult)
 	Return mResult
 End Sub
 ```

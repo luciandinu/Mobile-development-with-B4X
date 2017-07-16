@@ -11,7 +11,7 @@ Combined with **B4i** (which is another **RAD** tool from Anywhere Software) you
 
 **B4A** it is used the thousands of developers all around the world for small inhouse applications to _real world commercial applications_.
 
-#### Who is this book for
+#### Who is this guide for
 
 
 #### What you beed to run B4A
