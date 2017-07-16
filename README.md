@@ -6,7 +6,15 @@ B4X is a suite of simple, powerful and modern development tools from [Anywhere S
 
 _In this guide our main focus will be **B4A** but, we are also going to refer to B4i and B4J._
 
-Contents
+
 ----
+## Contents
 
 - [Introduction](01-introduction.md)
+
+
+----
+
+#### Licensing
+
+You may freely read, without restriction, this guide. You are not permitted to make this guide or parts of it available for distribution (personal or comercial) elsewhere without prior consent.
