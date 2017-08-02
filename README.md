@@ -14,6 +14,6 @@ _In this guide our main focus will be **B4A** but, we are also going to refer to
 
 ----
 
-#### Licensing
+#### License
 
-You may freely read, without restriction, this guide. You are not permitted to make this guide or parts of it available for distribution (personal or comercial) elsewhere without prior consent.
+This guide is released under the [following](http://creativecommons.org/licenses/by-nc-sa/4.0/) CC license (CC BY-NC-SA 4.0).

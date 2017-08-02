@@ -5,7 +5,7 @@ When it comes to mobile development and specifically **Android** there are many 
 There are also different development approaches when it comes to development, like hybrid(using Cordova) or native(using C/C++ or Java). 
 
 **B4A** is a simple to use and powerful **RAD (Rapid Application Development)** from [Anywhere Software](https://www.idevaffiliate.com/33168/26.html), capable of building completely native **Android** applications. 
-It is easy to grasp for beginners and fully loaded with a lot of features necessary for experienced developers. It uses a **Basic (Beginner's All-purpose Symbolic Instruction Code)** dialect similar to **Visual Basic** (VB6, VB.Net).
+It is easy to grasp for beginners and fully loaded with a lot of features necessary for experienced developers. It uses a **Basic _(Beginner's All-purpose Symbolic Instruction Code)_** dialect similar to **Visual Basic** (VB6, VB.Net).
 
 Combined with **B4i** (which is another **RAD** tool from [Anywhere Software](https://www.idevaffiliate.com/33168/26.html)) you can share most of the logic code between **And**roid and **iOS** projects.
 
